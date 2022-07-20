@@ -1,0 +1,13 @@
+/Desafio - Ajustar o erro do codigo abaixo: 
+
+let employee = {};
+employee.code = 10;
+employee.name = "John";
+
+
+/Codigo ajustado
+
+const funcionario2: {codigo: number, nome: string} = {
+    codigo: 10,
+    nome: 'joao'
+}
